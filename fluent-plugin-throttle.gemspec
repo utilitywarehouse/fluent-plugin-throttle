@@ -3,12 +3,12 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "fluent-plugin-throttle"
+  spec.name          = "uw-fluent-plugin-throttle"
   spec.version       = "0.0.4-dev"
-  spec.authors       = ["François-Xavier Bourlet"]
-  spec.email         = ["fx.bourlet@rubrik.com"]
+  spec.authors       = ["François-Xavier Bourlet", "UtilityWarehouse"]
+  spec.email         = ["fx.bourlet@rubrik.com", "infra@utilitywarehouse.co.uk"]
   spec.summary       = %q{Fluentd filter for throttling logs based on a configurable key.}
-  spec.homepage      = "https://github.com/rubrikinc/fluent-plugin-throttle"
+  spec.homepage      = "https://github.com/utilitywarehouse/fluent-plugin-throttle"
   spec.license       = "Apache-2.0"
 
   spec.files         = `git ls-files`.split($/)
